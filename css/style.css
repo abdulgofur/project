@@ -1,0 +1,77 @@
+/* CSS Document */
+* {
+  font-family:"Times New Roman", Times, serif;
+  border: 0px solid rgba(0, 0, 0, 0.3);
+}
+
+nav {
+  background-color: white;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+header {
+  background-color: white;
+  position: fixed ;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+}
+
+section {
+  margin: 50px 0 0px 0;
+  background: url("https://github.com/hacktiv8/phase-0-activities/blob/master/modules/assets/sample-pattern.png?raw=true");
+  overflow: scroll;
+}
+
+h1 {
+  color: #3F403F;
+  font-size: 2.5em;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a li {
+  font-weight: bold;
+  font-family:"Times New Roman", Times, serif;
+  text-decoration: initial;
+  display: inline-block;
+  margin: 0 20px 0 0;
+}
+
+article {
+  border-bottom: 1px solid #E5E4E4;
+  padding: 10px;
+}
+
+#article-ls {
+  background-color: white;
+  margin: 0 auto 40px auto;
+  width: 70%;
+  height: auto;
+  overflow: hidden;
+}
+
+a {
+  color:#000000;
+  text-decoration: initial;
+}
+
+p {
+  margin: 10px;
+  position: center;
+}
+
+h3 {
+  margin: 10px;
+  position: center;
+}
+
+
+footer {
+  padding: 10px;
+  background-color: #403F3F;
+  color: white;
+  text-align: center;
+}
